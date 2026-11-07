@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111318;
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 40px auto;
+}
+
+.card {
+  background: #1b1f27;
+  border: 1px solid #303744;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #b8c0cc;
+  margin-bottom: 28px;
+}
+
+h2 {
+  margin-top: 26px;
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+.agreement {
+  margin-top: 28px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 24px;
+  background: #6d5dfc;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.08);
+}
+
+#copyStatus {
+  color: #aeb8c8;
+  min-height: 24px;
+}
